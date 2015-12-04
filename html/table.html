@@ -24,11 +24,27 @@
     <!--
         caption : 표의 제목부 h$ 관련태그와는 의미가 다르다
         summary : 현제 표의 자세한 설명
+    -->
 
+    <!--
+        colgroup 은 테이블 아이템 즉 열의 넓에대한 디자인값을 넣을때
+        사용된다.
+
+        구성요소로는 빈태그 형식의 col 을 사용합니다
+        col의속성으로는 style="" width="" 등을사용하여 디자인을
+        조절할 수 있습니다.
     -->
 
     <table border="1" width="100%" summary="자세한설명">
         <caption>게시판</caption>
+
+        <colgroup>
+            <col width="100"/>
+            <col width="300"/>
+            <col />
+            <col />
+        </colgroup>
+
         <thead>
             <tr>
                 <td>번호</td>
