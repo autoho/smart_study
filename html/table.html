@@ -35,6 +35,12 @@
         조절할 수 있습니다.
     -->
 
+    <!--
+        colspan : 좌우열을 병합할때 사용합니다.
+        rowspan : 상하행의열을 병합할때 사용합니다.
+        공통: 값을 줄경우 해당수 만큼의 열과행의 역활을함
+     -->
+
     <table border="1" width="100%" summary="자세한설명">
         <caption>게시판</caption>
 
@@ -47,8 +53,8 @@
 
         <thead>
             <tr>
-                <td>번호</td>
-                <td>제목</td>
+                <td colspan="2">번호</td>
+
                 <td>작성자</td>
                 <td>작성일</td>
             </tr>
@@ -63,13 +69,13 @@
         </tfoot>
         <tbody>
             <tr>
-                <td>item</td>
+                <td rowspan="2">item</td>
                 <td>item</td>
                 <td>item</td>
                 <td>item</td>
             </tr>
             <tr>
-                <td>item</td>
+
                 <td>item</td>
                 <td>item</td>
                 <td>item</td>
