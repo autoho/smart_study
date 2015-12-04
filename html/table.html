@@ -46,50 +46,35 @@
 
         <colgroup>
             <col width="100"/>
-            <col width="300"/>
-            <col />
-            <col />
+            <col/>
         </colgroup>
 
-        <thead>
-            <tr>
-                <th scope="colgroup" colspan="2">번호</th>
-
-                <th scope="colgroup" colspan="2">작성자</th>
-
-            </tr>
-            <tr>
-                <th scope="col">번호</th>
-                <th scope="col">제목</th>
-                <th scope="col">작성자</th>
-                <th scope="col">작성일</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <th scope="row">foot</th>
-                <td>foot</td>
-                <td>foot</td>
-                <td>foot</td>
-            </tr>
-        </tfoot>
         <tbody>
             <tr>
-                <th scope="row">item</th>
-                <td>item</td>
-                <td>item</td>
-                <td>item</td>
+                <th>
+                    <label for="userid">아이디</label>
+                </th>
+                <td>
+                    <input type="text" id="userid"/>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    <label>전화번호</label>
+                </th>
+                <td>
+                    <!-- 셀렉트  -->
+                    <select>
+                        <option>010</option>
+                        <option>016</option>
+                        <option>02</option>
+                    </select>
+                    <input type="text"> -
+                    <input type="text">
+                </td>
             </tr>
             <tr>
                 <th scope="row">item</th>
-                <td>item</td>
-                <td>item</td>
-                <td>item</td>
-            </tr>
-            <tr>
-                <th scope="row">item</th>
-                <td>item</td>
-                <td>item</td>
                 <td>item</td>
             </tr>
         </tbody>
